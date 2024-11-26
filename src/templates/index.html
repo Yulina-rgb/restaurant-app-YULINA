@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Restaurant Apps</title>
+
+    <link
+      {%
+      comment
+      %}
+      {%
+      comment
+      %}
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
+      {%
+      endcomment
+      %}
+      {%
+      endcomment
+      %}
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <a href="#main-content" class="skip-to-content">Skip to Content</a>
+
+    <header class="header" style="background-color: #86a789">
+      <div class="logo">
+        <img
+          class="logo"
+          src="./images/heros/logo-new.png"
+          alt="logo YL
+        Chicken"
+        />
+      </div>
+      <button
+        class="hamburger"
+        id="hamburger"
+        aria-label="membuka menu navigasi"
+      >
+        ☰
+      </button>
+      <nav class="navbar" aria-label="Navigasi Utama">
+        <ul id="navMenu" class="nav-menu" hidden>
+          <li><a href="http://localhost:8080">Home</a></li>
+          <li><a href="#">Favorite</a></li>
+          <li>
+            <a href="https://www.linkedin.com/feed/" target="_blank">AboutUs</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="hero-header" style="background-color: #b2c8ba">
+        <div class="hero-text">
+          <h1 class="hero_title">Bergabunglah dengan Kami!</h1>
+          <p class="hero_tagline">
+            Temukan menu khas kami yang menggugah selera, mulai dari masakan
+            lokal yang kaya rempah hingga hidangan internasional yang menggoda.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <main class="main" id="main-content" style="background-color: #d2e3c9">
+      <section id="restaurants">
+        <h2>Daftar Cabang YL Resto Lawas</h2>
+        <div id="restaurantList" class="restaurant-list"></div>
+      </section>
+
+      <div id="pesan-menu" class="pesanMenu" style="background-color: #ebf3e8">
+        <div id="order" class="myOrder">
+          <h3>Pesan Sekarang!</h3>
+        </div>
+        <p class="iklan">
+          Jangan lewatkan kesempatan untuk mencicipi kelezatan masakan kami.
+          untuk mengamankan meja Anda atau kunjungi kami untuk pengalaman
+          kuliner yang memuaskan isi data di bawah ini!
+        </p>
+        <div id="myPesan" class="pesan">
+          <form id="booking-form">
+            <label for="name">Nama:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Masukkan nama Anda"
+            />
+
+            <label for="phone">Nomor Telepon:</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              required
+              placeholder="Masukkan nomor telepon"
+            />
+
+            <label for="date">Tanggal:</label>
+            <input type="date" id="date" name="date" required />
+
+            <label for="time">Waktu:</label>
+            <input type="time" id="time" name="time" required />
+
+            <label for="special-requests">Deskripsi:</label>
+            <textarea
+              id="special-requests"
+              name="special-requests"
+              rows="4"
+              placeholder="Isi jumlah tamu untuk booking meja dan masukan jika ada permintaan khusus"
+            ></textarea>
+
+            <input type="submit" value="Kirim Pemesanan" />
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+  <footer>
+    <div class="footer" style="background-color: #ebf3e8">
+      <p>copyright &copy; 2024 - YL Resto Lawas</p>
+    </div>
+  </footer>
+</html>

@@ -1,0 +1,380 @@
+@media screen and (min-width: 900px) {
+  .restaurant-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .hamburger {
+    display: none;
+  }
+  .pesanMenu {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .hamburger {
+    display: none;
+  }
+  .restaurant-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: -30px;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .nav-menu.active {
+    display: block; /*here*/
+  }
+
+  .hamburger {
+    display: grid; /*here*/
+    top: -95px;
+    margin-left: 470px;
+  }
+
+  .restaurant-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .nav-menu li {
+    margin: 3px 0;
+  }
+
+  .pesanMenu {
+    width: 100%;
+    padding: 10px;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .hero-header {
+    height: 380px;
+  }
+
+  .hamburger {
+    display: flexbox;
+    margin: 0 5px;
+    top: -95px;
+    margin-left: 395px;
+  }
+  .restaurant-list {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-menu li {
+    margin: 5px 0;
+  }
+
+  .pesanMenu {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .hero-header {
+    height: 380px;
+  }
+
+  .hamburger {
+    display: flexbox;
+    top: -90px;
+    margin-left: 290px;
+  }
+  .restaurant-list {
+    grid-template-columns: 1fr;
+  }
+  .nav-menu {
+    top: -30px;
+  }
+
+  .hero-text {
+    position: absolute;
+  }
+
+  .nav-menu li {
+    margin: 5px 0;
+  }
+
+  .pesanMenu {
+    max-width: 100%;
+    padding: 10px;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .hero-header {
+    height: 380px;
+  }
+
+  .hamburger {
+    display: flexbox;
+    margin: 0 5px;
+    top: -90px;
+    margin-left: 280px;
+  }
+
+  .restaurant-list {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-text {
+    position: absolute;
+  }
+
+  .nav-menu li {
+    margin: 5px 0;
+  }
+
+  .pesanMenu {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .hero-header {
+    height: 380px;
+  }
+
+  .hamburger {
+    display: flexbox;
+    margin: 0 5px;
+    top: -90px;
+    margin-left: 260px;
+  }
+
+  .restaurant-list {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-text {
+    position: absolute;
+  }
+
+  .nav-menu li {
+    margin: 5px 0;
+  }
+
+  .pesanMenu {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 304px) {
+  .hero-header {
+    height: 380px;
+  }
+
+  .hamburger {
+    display: flexbox;
+    margin: 0 8px;
+    top: -90px;
+    margin-left: 220px;
+  }
+
+  .restaurant-list {
+    grid-template-columns: 1fr;
+
+    margin: 0;
+  }
+
+  .hero-text {
+    position: relative;
+  }
+
+  .nav-menu li {
+    margin: 5px 0;
+  }
+
+  .pesanMenu {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 285px) {
+  .hero-header {
+    height: 380px;
+  }
+
+  .hamburger {
+    display: grid;
+    margin: 0 10px;
+    top: -80px;
+    margin-left: 190px;
+  }
+
+  .restaurant-list {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-text {
+    position: absolute;
+  }
+
+  .nav-menu li {
+    margin: 5px 0;
+  }
+
+  .pesanMenu {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 270px) {
+  .hero-header {
+    height: 380px;
+  }
+
+  .hamburger {
+    display: flex;
+    margin: 0 10px;
+    top: -80px;
+    margin-left: 190px;
+  }
+
+  .restaurant-list {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-text {
+    position: relative;
+  }
+  .pesanMenu {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 264px) {
+  .hero-header {
+    height: 380px;
+  }
+
+  .hamburger {
+    display: flexbox;
+    margin: 0 10px;
+    top: -80px;
+    margin-left: 180px;
+  }
+
+  .restaurant-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .hero-text {
+    position: relative;
+  }
+
+  .nav-menu li {
+    margin: 5px 0;
+  }
+
+  .pesanMenu {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 252px) {
+  .hero-header {
+    height: 380px;
+  }
+
+  .hamburger {
+    display: grid;
+    margin: 0 10px;
+    top: -80px;
+    margin-left: 180px;
+  }
+
+  .restaurant-list {
+    grid-template-columns: relatif(1, 1fr);
+  }
+
+  .hero-text {
+    position: absolute;
+  }
+
+  .nav-menu li {
+    margin: 5px 0;
+  }
+
+  .pesanMenu {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 230px) {
+  .hero-header {
+    height: 380px;
+  }
+
+  .hamburger {
+    display: grid;
+    margin: 0 10px;
+    top: -80px;
+    margin-left: 190px;
+  }
+
+  .restaurant-list {
+    grid-template-columns: relatif(1, 1fr);
+  }
+
+  .hero-text {
+    position: relative;
+  }
+
+  .nav-menu li {
+    margin: 5px 0;
+  }
+
+  .pesanMenu {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 225px) {
+  .hero-header {
+    height: 380px;
+  }
+
+  .hamburger {
+    display: flexbox;
+    margin: 0 10px;
+    top: -80px;
+  }
+
+  .restaurant-list {
+    grid-template-columns: relatif(1, 1fr);
+  }
+
+  .hero-text {
+    position: absolute;
+  }
+
+  .nav-menu li {
+    margin: 5px 0;
+  }
+
+  .pesanMenu {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
